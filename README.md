@@ -96,33 +96,54 @@ Digite o Valor de X3 na 4 restricao> 0.002
 Deve ser <= (menor ou igual) a> 600
 
 
-Base    X1      X2      X3      F1      F2      F3      F4      B
-F1      0.300   0.200   0.100   1.000   0.000   0.000   0.000   10000.000
-F2      0.003   0.005   0.007   0.000   1.000   0.000   0.000   1600.000
-F3      0.007   0.008   0.010   0.000   0.000   1.000   0.000   800.000
-F4      0.033   0.005   0.002   0.000   0.000   0.000   1.000   600.000
-FO      -5.000  -7.000  -8.000  0.000   0.000   0.000   0.000   0.000
+- Base    X1      X2      X3      F1      F2      F3      F4      B
+- F1      0.300   0.200   0.100   1.000   0.000   0.000   0.000   10000.000
+- F2      0.003   0.005   0.007   0.000   1.000   0.000   0.000   1600.000
+- F3      0.007   0.008   0.010   0.000   0.000   1.000   0.000   800.000
+- F4      0.033   0.005   0.002   0.000   0.000   0.000   1.000   600.000
+- FO      -5.000  -7.000  -8.000  0.000   0.000   0.000   0.000   0.000
 
 Solucao Basica Inicial:   X1 = 0.00  X2 = 0.00  X3 = 0.00  F1 = 10000.000  F2 = 1600.000  F3 = 800.000  F4 = 600.000  Z = 0.000
 
 
 
-Base    X1      X2      X3      F1      F2      F3      F4      B
-F1      0.230   0.120   0.000   1.000   0.000   -0.100  0.000   2000.000
-F2      -0.002  -0.001  0.000   0.000   1.000   -0.007  0.000   1040.000
-F3      0.700   0.800   1.000   0.000   0.000   1.000   0.000   80000.000
-F4      0.032   0.003   0.000   0.000   0.000   -0.002  1.000   440.000
-FO      0.600   -0.600  0.000   0.000   0.000   8.000   0.000   640000.000
+- Base    X1      X2      X3      F1      F2      F3      F4      B
+- F1      0.230   0.120   0.000   1.000   0.000   -0.100  0.000   2000.000
+- F2      -0.002  -0.001  0.000   0.000   1.000   -0.007  0.000   1040.000
+- F3      0.700   0.800   1.000   0.000   0.000   1.000   0.000   80000.000
+- F4      0.032   0.003   0.000   0.000   0.000   -0.002  1.000   440.000
+- FO      0.600   -0.600  0.000   0.000   0.000   8.000   0.000   640000.000
 
 2 Solucao:   X1 = 0.600  X2 = 0.00  X3 = 0.00  F1 = 2000.000  F2 = 1040.000  F3 = 79992.000  F4 = 440.000  Z = 640000.000
 
 
 
-Base    X1      X2      X3      F1      F2      F3      F4      B
-F1      1.917   1.000   0.000   1.000   0.000   -0.833  0.000   16666.668
-F2      -0.001  0.000   0.000   0.001   1.000   -0.008  0.000   1050.000
-F3      -0.833  0.000   1.000   -0.800  0.000   1.667   0.000   66666.664
-F4      0.025   0.000   0.000   -0.003  0.000   0.001   1.000   383.333
-FO      1.750   0.000   0.000   0.600   0.000   7.500   0.000   650000.000
+- Base    X1      X2      X3      F1      F2      F3      F4      B
+- F1      1.917   1.000   0.000   1.000   0.000   -0.833  0.000   16666.668
+- F2      -0.001  0.000   0.000   0.001   1.000   -0.008  0.000   1050.000
+- F3      -0.833  0.000   1.000   -0.800  0.000   1.667   0.000   66666.664
+- F4      0.025   0.000   0.000   -0.003  0.000   0.001   1.000   383.333
+- FO      1.750   0.000   0.000   0.600   0.000   7.500   0.000   650000.000
 
 3 Solucao:   X1 = 1.750  X2 = 0.00  X3 = 0.00  F1 = 16666.068  F2 = 1050.000  F3 = 66659.164  F4 = 383.333  Z = 650000.000
+
+ v2
+  
+  Este algoritmo pode:
+  - Maximizar
+  - Minimizar
+  - Oferecer Soluções das iterações do algoritmo
+  - Mostrar o passo a passo das operações
+  - Fornecer um resultado
+  - Gerar Relatório de Análise de Sensibilidade
+  
+  Para utilizá-lo, basta executar o arquivo em um ambiente de desenvolvimento da linguagem C, por exemplo, Dev-C++.
+  - Informar se o objetivo é maximizar ou minimizar a solução.
+  - Fornecer o número de variáveis e Restrições.
+  - Fornecer nomes das variáveis(o que cada uma representa)
+  - Fornecer Função Objetivo: O comportamento que se pretende seguir
+  - Fornecer restrições, indicando o numero de recursos limitados quando fornecer o dado 'menor ou igual a <='.
+  O algoritmo solucionará todo o resto, oferecendo as informações.
+  
+  
+  Ex de Uso:
