@@ -131,7 +131,9 @@ Solucao Basica Inicial:   X1 = 0.00  X2 = 0.00  X3 = 0.00  F1 = 10000.000  F2 = 
 3 Solucao:   X1 = 1.750  X2 = 0.00  X3 = 0.00  F1 = 16666.068  F2 = 1050.000  F3 = 66659.164  F4 = 383.333  Z = 650000.000
 
  v2
+  Adicao de Tratamento de Solução Impossível.
   
+ v3
   Este algoritmo pode:
   - Maximizar
   - Minimizar
