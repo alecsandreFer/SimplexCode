@@ -12,6 +12,9 @@ Integrantes do grupo:
   O Simplex é um algoritmo de otimização linear, no sentido de maximizar ou minimizar medidas para um melhor objetivo.
   Exemplo maximizar o lucro para utilizar menos recursos, ou talvez nas medidas corretas
   
+  OBS: O DEV-C++ DEVE SER EXECUTADO NO MODO DE GERAÇÃO DE CÓDIGO ISOC99. PARA CONFIGURÁ-LO, DEVE IR EM FERRAMENTAS -> OPÇÕES DE COMPILADOR -> CONFIGURAÇÕES -> GERACAO DE CÓDIGO -> EM LINGUAGEM PADRÃO, APLICAR ISOC99 -> OK
+  Tools -> Compiler Options -> Settings -> Code Generation -> Standard Language(-std) -> Apply ISOC99 -> OK
+  
   v1
   Este algoritmo pode:
   - Maximizar
