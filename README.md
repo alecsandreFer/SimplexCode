@@ -5,7 +5,7 @@ Curso: Bacharelado em Ciência da Computação
 Turma: 5A-S
 Integrantes do grupo:
   Alecsandre Ap. RA: 577200
-  João V. Daum RA: 581491
+  João V. Daum RA: 581941
   João Vitor De Oliveira Andrade RA: 582141
   Wagner Mafra dos Santos RA: 583154
   
