@@ -1,6 +1,6 @@
 // Nomes: Alecsandre Ap. RA: 577200
-//		  Jo„o V. Daum RA: 581491
-// 		  Jo„o Vitor De Oliveira Andrade RA: 582141
+//		  Jo√£o V. Daum RA: 581491
+// 		  Jo√£o Vitor De Oliveira Andrade RA: 582141
 //		  Wagner Mafra dos Santos RA: 583154
 
 #include <stdio.h>
@@ -113,7 +113,7 @@ int main() {
 	}
 	for (int i = 0; i < quantRest; i++) {
 		if (matriz[x-1][i] < 0) {
-			printf("\n\nSolucao Impossivel. Valor de restricao %i em <= È negativo.\n", varSolImp);
+			printf("\n\nSolucao Impossivel. Valor de restricao %i em <= √© negativo.\n", varSolImp);
 			SolImp = 1;
 			break;
 		}
@@ -364,7 +364,7 @@ int main() {
 		}
 	}
 	printf("-\t");
-	printf("\nPreco Sombra\t\t");
+	printf("\nCusto Reduzido\t\t");
 	for(int i = 0; i < x; i++) {
 		if (i < quantVar)
 			printf("%.3f\t", matriz[i][y - 1]);
